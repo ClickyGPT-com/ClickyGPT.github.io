@@ -28,7 +28,7 @@ Start your AI journey, explore advanced prompt tools, simulators, and even some 
 
 ### 🎯 Core AI Tools
 
-| Tool                             | Description                                         | Link                                                                          | Status |
+| Tool                             Description                                         Link                                                                          | Status |
 |----------------------------------|-----------------------------------------------------|-------------------------------------------------------------------------------|--------|
 | **Prompt Builder ⚙️**            | Craft and optimize AI prompts easily                | [Open](https://craft-prompt-builder-80858768781.us-west1.run.app/)            | ✅ Live |
 | **Google-Dork Prompter 👁️‍🗨️** | Generate Google Dork queries for advanced searching | [Open](https://google-dork-intelligence-querier-80858768781.us-west1.run.app) | ✅ Live |

@@ -1,0 +1,50 @@
+# Site settings
+title: ClickyGPT Web Applications
+description: "AI-driven web applications suite - Prompt tools, simulators, and monetization solutions"
+url: "https://clickygpt.github.io"
+baseurl: ""
+
+# Author information
+author:
+  name: ClickyGPT
+  twitter: ClickyGPT
+  github: ClickyGPT
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# GitHub Pages specific
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - .idea/
+  - .gitignore
+  - .gitattributes
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
